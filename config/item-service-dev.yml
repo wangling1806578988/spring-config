@@ -2,6 +2,14 @@ spring:
   application:
     name: item-service
     
+    
+    
+#  rabbitmq:
+#    host: 
+#    port: 5672
+#    username: admin
+#    password: admin
+    
   cloud:
     config:
       override-none: true
@@ -14,3 +22,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
+      
+      
